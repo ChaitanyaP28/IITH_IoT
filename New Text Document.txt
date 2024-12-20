@@ -1,0 +1,11 @@
+LABELS:
+Class Labels: Categories such as "Car," "Pedestrian," "Cyclist," etc.
+Bounding Boxes: 2D and 3D bounding boxes that define the position and size of objects in the images or point clouds.
+Truncation and Occlusion: Degrees of object visibility (e.g., whether an object is partially occluded or truncated by image boundaries).
+Rotation and Orientation: Information about the object's orientation in 3D space.
+Object Dimensions: Height, width, and length of the detected objects in the 3D space.
+
+CALIB:
+Intrinsic Parameters: Describe the internal properties of the cameras, such as focal length, optical center, and distortion coefficients.
+Extrinsic Parameters: Define the position and orientation of each sensor (camera, LiDAR) relative to the vehicle's coordinate system.
+Projection Matrices: Used to map 3D points from the LiDAR point cloud into the 2D image plane.
